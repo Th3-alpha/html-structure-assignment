@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>NBA 2026-27 Standings</title>
+    </head>
+    <style>
+        table {
+            font-family: Arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th, td {
+            border-bottom: 1px solid lightgray;
+            padding: 12px 8px;
+            text-align: center;
+        }
+
+        th {
+            background-color: white;
+            font-weight: bold;
+        }
+
+        tr:nth-child(even) {
+            background-color: whitesmoke;
+        }
+
+        th:first-child,
+        td:first-child {
+            text-align: left;
+        }
+
+        td:nth-child(4) {
+            background-color: aliceblue;
+        }
+
+        th:nth-child(1),
+        td:nth-child(1),
+        th:nth-child(5),
+        td:nth-child(5),
+        th:nth-child(9),
+        td:nth-child(9),
+        th:nth-child(12),
+        td:nth-child(12) {
+            border-right: 1px solid lightgray;
+        }
+    </style>
+    <body>
+        <main id="nba-standings">
+            <h2>NBA Standings 2026-27</h2>
+            <table>
+                <caption>National Basketball Association</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Team</th>
+                        <th scope="col">W</th>
+                        <th scope="col">L</th>
+                        <th scope="col">PCT</th>
+                        <th scope="col">GB</th>
+                        <th scope="col">HOME</th>
+                        <th scope="col">AWAY</th>
+                        <th scope="col">DIV</th>
+                        <th scope="col">CONF</th>
+                        <th scope="col">PPG</th>
+                        <th scope="col">OPP PPG</th>
+                        <th scope="col">DIFF</th>
+                        <th scope="col">STRK</th>
+                        <th scope="col">L10</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                <th scope="row"><a href="#">Memphis Grizzlies</a></th>
+                <td>5</td>
+                <td>0</td>
+                <td>1.000</td>
+                <td>-</td>
+                <td>1-0</td>
+                <td>4-0</td>
+                <td>0-0</td>
+                <td>5-0</td>
+                <td>118.2</td>
+                <td>106.2</td>
+                <td style="color: green;">+12.0</td>
+                <td>W5</td>
+                <td>5-0</td>
+            </tr>
+
+            <tr>
+                <th scope="row"><a href="#">Detroit Pistons</a></th>
+                <td>5</td>
+                <td>1</td>
+                <td>.833</td>
+                <td>0.5</td>
+                <td>2-0</td>
+                <td>3-1</td>
+                <td>0-0</td>
+                <td>5-1</td>
+                <td>109.8</td>
+                <td>101.8</td>
+                <td style="color: green;">+8.0</td>
+                <td>W2</td>
+                <td>5-1</td>
+            </tr>
+
+            <tr>
+                <th scope="row"><a href="#">Houston Rockets</a></th>
+                <td>5</td>
+                <td>1</td>
+                <td>.833</td>
+                <td>0.5</td>
+                <td>2-0</td>
+                <td>3-1</td>
+                <td>2-1</td>
+                <td>2-1</td>
+                <td>121.0</td>
+                <td>110.0</td>
+                <td style="color: green;">+11.0</td>
+                <td>L1</td>
+                <td>5-1</td>
+            </tr>
+
+            <tr>
+                <th scope="row"><a href="#">Philadelphia 76ers</a></th>
+                <td>5</td>
+                <td>1</td>
+                <td>.833</td>
+                <td>0.5</td>
+                <td>3-1</td>
+                <td>2-0</td>
+                <td>2-0</td>
+                <td>5-1</td>
+                <td>108.7</td>
+                <td>105.0</td>
+                <td style="color: green;">+3.7</td>
+                <td>W2</td>
+                <td>5-1</td>
+            </tr>
+
+            <tr>
+                <th scope="row"><a href="#">Boston Celtics</a></th>
+                <td>4</td>
+                <td>1</td>
+                <td>.800</td>
+                <td>1</td>
+                <td>4-0</td>
+                <td>0-1</td>
+                <td>2-0</td>
+                <td>4-1</td>
+                <td>120.8</td>
+                <td>111.6</td>
+                <td style="color: green;">+9.2</td>
+                <td>W4</td>
+                <td>4-1</td>
+            </tr>
+
+            <tr>
+                <th scope="row"><a href="#">Oklahoma City Thunder</a></th>
+                <td>4</td>
+                <td>1</td>
+                <td>.800</td>
+                <td>1</td>
+                <td>3-0</td>
+                <td>1-1</td>
+                <td>1-0</td>
+                <td>4-1</td>
+                <td>108.2</td>
+                <td>104.6</td>
+                <td style="color: green;">+3.6</td>
+                <td>L1</td>
+                <td>4-1</td>
+            </tr>
+
+            <tr>
+                <th scope="row"><a href="#">Portland Trail Blazers</a></th>
+                <td>3</td>
+                <td>1</td>
+                <td>.750</td>
+                <td>1.5</td>
+                <td>1-1</td>
+                <td>2-0</td>
+                <td>0-0</td>
+                <td>3-1</td>
+                <td>122.8</td>
+                <td>114.0</td>
+                <td style="color: green;">+8.8</td>
+                <td>L1</td>
+                <td>3-1</td>
+            </tr>
+
+            <tr>
+                <th scope="row"><a href="#">Los Angeles Lakers</a></th>
+                <td>4</td>
+                <td>2</td>
+                <td>.667</td>
+                <td>1.5</td>
+                <td>2-1</td>
+                <td>2-1</td>
+                <td>3-1</td>
+                <td>4-2</td>
+                <td>118.5</td>
+                <td>113.3</td>
+                <td style="color: green;">+5.2</td>
+                <td>L1</td>
+                <td>4-2</td>
+            </tr>
+
+            <tr>
+                <th scope="row"><a href="#">Dallas Mavericks</a></th>
+                <td>4</td>
+                <td>2</td>
+                <td>.667</td>
+                <td>1.5</td>
+                <td>2-1</td>
+                <td>2-1</td>
+                <td>1-2</td>
+                <td>2-2</td>
+                <td>114.3</td>
+                <td>111.8</td>
+                <td style="color: green;">+2.5</td>
+                <td>W3</td>
+                <td>4-2</td>
+            </tr>
+
+            <tr>
+                <th scope="row"><a href="#">Minnesota Timberwolves</a></th>
+                <td>4</td>
+                <td>2</td>
+                <td>.667</td>
+                <td>1.5</td>
+                <td>2-1</td>
+                <td>2-1</td>
+                <td>0-0</td>
+                <td>1-1</td>
+                <td>121.5</td>
+                <td>106.7</td>
+                <td style="color: green;">+14.8</td>
+                <td>W1</td>
+                <td>4-2</td>
+            </tr>
+
+            <tr>
+                <th scope="row"><a href="#">Toronto Raptors</a></th>
+                <td>3</td>
+                <td>2</td>
+                <td>.600</td>
+                <td>2</td>
+                <td>2-1</td>
+                <td>1-1</td>
+                <td>0-0</td>
+                <td>3-1</td>
+                <td>116.8</td>
+                <td>106.2</td>
+                <td style="color: green;">+10.6</td>
+                <td>L1</td>
+                <td>3-2</td>
+            </tr>
+
+            <tr>
+                <th scope="row"><a href="#">Cleveland Cavaliers</a></th>
+                <td>3</td>
+                <td>2</td>
+                <td>.600</td>
+                <td>2</td>
+                <td>3-0</td>
+                <td>0-2</td>
+                <td>0-0</td>
+                <td>2-2</td>
+                <td>118.0</td>
+                <td>117.0</td>
+                <td style="color: green;">+1.0</td>
+                <td>L1</td>
+                <td>3-2</td>
+            </tr>
+
+            <tr>
+                <th scope="row"><a href="#">San Antonio Spurs</a></th>
+                <td>3</td>
+                <td>2</td>
+                <td>.600</td>
+                <td>2</td>
+                <td>1-2</td>
+                <td>2-0</td>
+                <td>1-1</td>
+                <td>3-2</td>
+                <td>116.6</td>
+                <td>110.0</td>
+                <td style="color: green;">+6.6</td>
+                <td>W3</td>
+                <td>3-2</td>
+            </tr>
+
+            <tr>
+                <th scope="row"><a href="#">Denver Nuggets</a></th>
+                <td>3</td>
+                <td>2</td>
+                <td>.600</td>
+                <td>2</td>
+                <td>1-1</td>
+                <td>2-1</td>
+                <td>0-1</td>
+                <td>3-2</td>
+                <td>114.0</td>
+                <td>115.2</td>
+                <td style="color: red;">-1.2</td>
+                <td>W2</td>
+                <td>3-2</td>
+            </tr>
+
+            <tr>
+                <th scope="row"><a href="#">Atlanta Hawks</a></th>
+                <td>3</td>
+                <td>3</td>
+                <td>.500</td>
+                <td>2.5</td>
+                <td>1-2</td>
+                <td>2-1</td>
+                <td>2-1</td>
+                <td>3-1</td>
+                <td>119.2</td>
+                <td>114.5</td>
+                <td style="color: green;">+4.7</td>
+                <td>W1</td>
+                <td>3-3</td>
+            </tr>
+
+            <tr>
+                <th scope="row"><a href="#">Washington Wizards</a></th>
+                <td>3</td>
+                <td>3</td>
+                <td>.500</td>
+                <td>2.5</td>
+                <td>2-1</td>
+                <td>1-2</td>
+                <td>1-1</td>
+                <td>3-3</td>
+                <td>110.5</td>
+                <td>109.7</td>
+                <td style="color: green;">+0.8</td>
+                <td>W1</td>
+                <td>3-3</td>
+            </tr>
+
+            <tr>
+                <th scope="row"><a href="#">Charlotte Hornets</a></th>
+                <td>3</td>
+                <td>3</td>
+                <td>.500</td>
+                <td>2.5</td>
+                <td>2-1</td>
+                <td>1-2</td>
+                <td>2-2</td>
+                <td>3-3</td>
+                <td>97.3</td>
+                <td>106.0</td>
+                <td style="color: red;">-8.7</td>
+                <td>L2</td>
+                <td>3-3</td>
+            </tr>
+
+            <tr>
+                <th scope="row"><a href="#">Golden State Warriors</a></th>
+                <td>3</td>
+                <td>3</td>
+                <td>.500</td>
+                <td>2.5</td>
+                <td>1-1</td>
+                <td>2-2</td>
+                <td>1-2</td>
+                <td>3-3</td>
+                <td>116.7</td>
+                <td>115.3</td>
+                <td style="color: green;">+1.4</td>
+                <td>W3</td>
+                <td>3-3</td>
+            </tr>
+
+            <tr>
+                <th scope="row"><a href="#">Orlando Magic</a></th>
+                <td>2</td>
+                <td>3</td>
+                <td>.400</td>
+                <td>3</td>
+                <td>0-2</td>
+                <td>2-1</td>
+                <td>0-1</td>
+                <td>2-2</td>
+                <td>109.8</td>
+                <td>118.4</td>
+                <td style="color: red;">-8.6</td>
+                <td>W1</td>
+                <td>2-3</td>
+            </tr>
+
+            <tr>
+                <th scope="row"><a href="#">Miami Heat</a></th>
+                <td>2</td>
+                <td>4</td>
+                <td>.333</td>
+                <td>3.5</td>
+                <td>1-3</td>
+                <td>1-1</td>
+                <td>1-1</td>
+                <td>2-2</td>
+                <td>118.3</td>
+                <td>121.5</td>
+                <td style="color: red;">-3.2</td>
+                <td>W2</td>
+                <td>2-4</td>
+            </tr>
+
+            <tr>
+                <th scope="row"><a href="#">New York Knicks</a></th>
+                <td>2</td>
+                <td>4</td>
+                <td>.333</td>
+                <td>3.5</td>
+                <td>1-2</td>
+                <td>1-2</td>
+                <td>0-3</td>
+                <td>2-4</td>
+                <td>107.0</td>
+                <td>107.7</td>
+                <td style="color: red;">-0.7</td>
+                <td>L1</td>
+                <td>2-4</td>
+            </tr>
+
+            <tr>
+                <th scope="row"><a href="#">Indiana Pacers</a></th>
+                <td>2</td>
+                <td>4</td>
+                <td>.333</td>
+                <td>3.5</td>
+                <td>0-2</td>
+                <td>2-2</td>
+                <td>0-1</td>
+                <td>1-3</td>
+                <td>116.7</td>
+                <td>119.8</td>
+                <td style="color: red;">-3.1</td>
+                <td>L3</td>
+                <td>2-4</td>
+            </tr>
+
+            <tr>
+                <th scope="row"><a href="#">Phoenix Suns</a></th>
+                <td>1</td>
+                <td>3</td>
+                <td>.250</td>
+                <td>3.5</td>
+                <td>1-1</td>
+                <td>0-2</td>
+                <td>1-0</td>
+                <td>1-3</td>
+                <td>112.0</td>
+                <td>124.5</td>
+                <td style="color: red;">-12.5</td>
+                <td>L2</td>
+                <td>1-3</td>
+            </tr>
+
+            <tr>
+                <th scope="row"><a href="#">Utah Jazz</a></th>
+                <td>1</td>
+                <td>4</td>
+                <td>.200</td>
+                <td>4</td>
+                <td>1-3</td>
+                <td>0-1</td>
+                <td>0-0</td>
+                <td>1-4</td>
+                <td>112.4</td>
+                <td>120.2</td>
+                <td style="color: red;">-7.8</td>
+                <td>L3</td>
+                <td>1-4</td>
+            </tr>
+
+            <tr>
+                <th scope="row"><a href="#">New Orleans Pelicans</a></th>
+                <td>1</td>
+                <td>4</td>
+                <td>.200</td>
+                <td>4</td>
+                <td>1-2</td>
+                <td>0-2</td>
+                <td>0-0</td>
+                <td>1-3</td>
+                <td>119.4</td>
+                <td>121.6</td>
+                <td style="color: red;">-2.2</td>
+                <td>W1</td>
+                <td>1-4</td>
+            </tr>
+
+            <tr>
+                <th scope="row"><a href="#">Milwaukee Bucks</a></th>
+                <td>1</td>
+                <td>4</td>
+                <td>.200</td>
+                <td>4</td>
+                <td>1-2</td>
+                <td>0-2</td>
+                <td>1-1</td>
+                <td>1-3</td>
+                <td>113.4</td>
+                <td>124.2</td>
+                <td style="color: red;">-10.8</td>
+                <td>L1</td>
+                <td>1-4</td>
+            </tr>
+
+            <tr>
+                <th scope="row"><a href="#">Los Angeles Clippers</a></th>
+                <td>1</td>
+                <td>4</td>
+                <td>.200</td>
+                <td>4</td>
+                <td>1-1</td>
+                <td>0-3</td>
+                <td>1-2</td>
+                <td>1-4</td>
+                <td>105.4</td>
+                <td>111.8</td>
+                <td style="color: red;">-6.4</td>
+                <td>L4</td>
+                <td>1-4</td>
+            </tr>
+
+            <tr>
+                <th scope="row"><a href="#">Chicago Bulls</a></th>
+                <td>1</td>
+                <td>5</td>
+                <td>.167</td>
+                <td>4.5</td>
+                <td>0-2</td>
+                <td>1-3</td>
+                <td>1-0</td>
+                <td>1-5</td>
+                <td>113.5</td>
+                <td>129.3</td>
+                <td style="color: red;">-15.8</td>
+                <td>L4</td>
+                <td>1-5</td>
+            </tr>
+
+            <tr>
+                <th scope="row"><a href="#">Brooklyn Nets</a></th>
+                <td>0</td>
+                <td>5</td>
+                <td>.000</td>
+                <td>5</td>
+                <td>0-3</td>
+                <td>0-2</td>
+                <td>0-1</td>
+                <td>0-5</td>
+                <td>110.2</td>
+                <td>121.2</td>
+                <td style="color: red;">-11.0</td>
+                <td>L5</td>
+                <td>0-5</td>
+            </tr>
+
+            <tr>
+                <th scope="row"><a href="#">Sacramento Kings</a></th>
+                <td>0</td>
+                <td>5</td>
+                <td>.000</td>
+                <td>5</td>
+                <td>0-2</td>
+                <td>0-3</td>
+                <td>0-1</td>
+                <td>0-5</td>
+                <td>110.2</td>
+                <td>126.8</td>
+                <td style="color: red;">-16.6</td>
+                <td>L5</td>
+                <td>0-5</td>
+            </tr>
+                </tbody>
+            </table>
+        </main>
+        <p>Standings are updated with the completion of each game.</p>
+        <footer id="glossary">
+            <h3>GLOSSARY</h3>
+            <ul>
+                <li>W:Wins</li>
+                <li>L:Losses</li>
+                <li>PCT:Winning Percentage</li>
+                <li>GB:Games Back</li>
+                <li>HOME:Home Record</li>
+                <li>AWAY:Away Record</li>
+                <li>DIV:Division Record</li>
+                <li>CONF:Conference Record</li>
+                <li>PPG:Points Per Game</li>
+                <li>OPP PPG:Opponent Points Per Game</li>
+                <li>DIFF:Average Point Differential</li>
+                <li>STRK:Current Streak</li>
+                <li>L10:Record last 10 games</li>
+            </ul>
+        </footer>
+    </body>
+</html>
